@@ -1,0 +1,153 @@
+.conteiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header h1 {
+    width: 170px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+nav {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #345;
+}
+nav ul {
+    overflow: hidden;
+    width: 700px;
+    margin: 0 auto;
+}
+nav ul li {
+    float: left;
+}
+nav .clearfix {
+    clear: both;
+}
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 20px 30px 25px 30px;
+    font-size: 18px;
+    text-decoration: none;
+	border: 1px solid red;
+}
+nav ul li a:hover {
+    background-color: #567;
+}
+
+/*контент сайта*/
+.conteiner .content {
+    width: 100%;
+    margin: 50px 0;
+
+}
+.conteiner .content .text {
+    width: calc(100% - 60px);
+    padding: 100px 30px;
+    color: white;
+    background-color: #aaf;
+    margin-bottom: 50px;
+}
+.conteiner .content .text h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: black;
+}
+.conteiner .content .text p {
+    font-size: 22px;
+}
+
+.conteiner .content .news {
+    overflow: hidden;
+}
+.conteiner .content .news .block {
+    margin: 10px;
+    width: calc(33.33% - 22px);
+    height: 500px;
+    float: left;
+    position: relative;
+
+    border: 1px solid black;
+}
+.conteiner .content .news .block .image {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .content .news .block h2 {
+    font-size: 22px;
+    margin: 10px 5px;
+    font-weight: bold;
+    width: 200px;
+}
+.conteiner .content .news .block p {
+    font-size: 18px;
+    margin: 0 5px;
+
+}
+.conteiner .content .news .block a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    width: calc(100% - 100px);
+    background-color: #345;
+    overflow: hidden;
+    padding: 50px;
+}
+footer div {
+    width: 33.33%;
+    float: left;
+    color: white;
+}
+footer div h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer div p {
+    font-size: 18px;
+}
+footer div a {
+    color: white;
+}
+footer div input, footer div textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+}
+footer div .submit {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+}
